@@ -54,12 +54,13 @@ main{
 
    display: flex;
    gap: 1rem;
+   margin-right: 1rem;
 }
 
 #Icone_réseauxSociaux li {
 
    list-style-type: none;
-   
+   flex-wrap: wrap;
    
 }
 
@@ -70,7 +71,7 @@ main{
    flex-wrap: wrap;
    color: blue;
    font-size: 25px;
-   flex-wrap: wrap;
+   
    
 }
 
@@ -79,11 +80,12 @@ main{
 
    display: flex;
    list-style-type: none;
-   flex-wrap: wrap;
    justify-content: space-around;
    background-color: #0000ff;
    color: #ffffff;
    padding: 2rem;
+   flex-wrap: wrap;
+   
    
 }
 
@@ -91,7 +93,6 @@ main{
 
    color: #ffffff;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   flex-wrap: wrap;
    font-weight: 100;
    font-size: 1rem;
    
