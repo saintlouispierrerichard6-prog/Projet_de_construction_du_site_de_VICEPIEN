@@ -1,0 +1,106 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    
+    min-height: 100vh;
+}
+
+/*Les proprietés body et main permettent de garder le footer en bas et au main d'occuper tout l'espace vide*/
+body{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+
+main{
+    
+   flex: 1;
+}
+
+#BarMenu1{
+    
+   background-color: #ffffff;
+   display: flex;
+   gap: 2rem;
+   justify-content: space-between;
+   padding: 0.3rem;
+   opacity: 0.7;
+   border-bottom: solid 4px blue
+   
+   
+}
+
+#BarMenu1 p{
+    
+   font-size: large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: red;
+   flex-wrap: wrap;
+   font-size: 2rem;
+   font-weight: 100;
+
+}
+
+#Icone_réseauxSociaux{
+
+   display: flex;
+   gap: 1rem;
+}
+
+#Icone_réseauxSociaux li {
+
+   list-style-type: none;
+   
+   
+}
+
+
+#Icone_réseauxSociaux li a{
+
+   list-style-type: none;
+   flex-wrap: wrap;
+   color: blue;
+   font-size: 25px;
+   flex-wrap: wrap;
+   
+}
+
+
+#BarMenu2 nav ul{
+
+   display: flex;
+   list-style-type: none;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: #0000ff;
+   color: #ffffff;
+   padding: 2rem;
+   
+}
+
+#BarMenu2 nav ul li a{
+
+   color: #ffffff;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-wrap: wrap;
+   font-weight: 100;
+   font-size: 1rem;
+   
+}
+
+footer{
+
+   background-color: blue;
+   padding: 10rem;
+   
+}
+
